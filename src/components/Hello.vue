@@ -5,7 +5,7 @@
 	<input type="text" v-model="num" />
 	<p>exp results : {{ num * num }}</p>
 	<router-link to="/list" class="btn btn-warning">Go to List</router-link>
-	<router-link :to="{ path: '/list' }" replace class="btn btn-warning">Go to List No History</router-link>
+	<router-link :to="{ path: '/currencies' }" replace class="btn btn-info">Go to currencies No History</router-link>
 	<a v-bind:href="list">list</a>
   </div>
 </template>

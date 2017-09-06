@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import HelloList from '@/components/HelloList'
+import Currency from '@/components/Currency'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/list',
       name: 'HelloList',
       component: HelloList
+    },
+    {
+      path: '/currencies',
+      name: 'Currency',
+      component: Currency
     }
   ]
 })
