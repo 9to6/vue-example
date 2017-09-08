@@ -15,7 +15,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App2',
+      msg: 'Welcome to Your Vue.js App',
       num: 1,
       list: '/list'
     }
