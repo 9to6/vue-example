@@ -15,9 +15,7 @@ Vue.prototype.$http = axios
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  data: {
-    msg: 'Test'
-  },
+  data: {},
   router,
   template: '<App/>',
   components: { App }
